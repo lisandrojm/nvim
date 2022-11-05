@@ -58,5 +58,5 @@ vim.filetype.add {
   },
 }
 
-vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#262626]])
+vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#282828]])
 vim.cmd([[highlight Cursorline ctermbg=0 guibg=#262626]])

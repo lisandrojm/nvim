@@ -57,3 +57,6 @@ vim.filetype.add {
     conf = "dosini",
   },
 }
+
+vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#262626]])
+vim.cmd([[highlight Cursorline ctermbg=0 guibg=#262626]])

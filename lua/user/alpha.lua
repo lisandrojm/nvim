@@ -106,4 +106,4 @@ dashboard.section.footer.opts.hl = "Type"
 dashboard.opts.opts.noautocmd = true
 -- vim.cmd([[autocmd User AlphaReady echo 'ready']])
 alpha.setup(dashboard.opts)
---
+

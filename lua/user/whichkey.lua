@@ -189,6 +189,8 @@ local mappings = {
     -- s = { "<cmd>lua local widgets=require'dap.ui.widgets';widgets.centered_float(widgets.scopes)<cr>", "Scopes" },
     -- p = { "<cmd>lua require'dap'.repl.toggle()<cr>", "Scopes" },
     name = "Debug",
+    A = { "<cmd>lua require'debugHelper'.attachToRemote()<cr>", "AttachToRemote" },
+    a = { "<cmd>lua require'debugHelper'.attach()<cr>", "Attach" },
     b = { "<cmd>lua require'dap'.toggle_breakpoint()<cr>", "Breakpoint" },
     c = { "<cmd>lua require'dap'.continue()<cr>", "Continue" },
     i = { "<cmd>lua require'dap'.step_into()<cr>", "Into" },

@@ -140,8 +140,3 @@ keymap("n", "<leader>n", ":Neoformat<cr>", opts)
 -- keymap("n", "<A-1>", ":Copilot enable<cr>", opts)
 -- keymap("n", "<A-2>", ":Copilot disable<cr>", opts)
 -- keymap("n", "<A-3>", ":Copilot status<cr>", opts)
-
-
--- incremente/decrement number
-keymap("n", "<S-z>", "<C-a>", opts)
-keymap("n", "<S-x>", "<C-x>", opts)

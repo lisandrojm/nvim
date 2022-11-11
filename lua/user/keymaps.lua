@@ -95,7 +95,7 @@ keymap(
 )
 keymap("n", "<C-t>", "<cmd>lua vim.lsp.buf.document_symbol()<cr>", opts)
 keymap("n", "<C-s>", "<cmd>vsplit<cr>", opts)
-keymap("n", "<C-z>", "<cmd>ZenMode<cr>", opts)
+-- keymap("n", "<C-z>", "<cmd>ZenMode<cr>", opts)
 keymap("n", "<c-n>", ":e ~/Notes/<cr>", opts)
 
 keymap("n", "-", ":lua require'lir.float'.toggle()<cr>", opts)
@@ -137,6 +137,6 @@ keymap("v", "<leader>,", ":call nerdcommenter#Comment('x', 'toggle')<CR>", opts)
 keymap("n", "<leader>n", ":Neoformat<cr>", opts)
 
 -- copilot
-keymap("n", "<A-1>", ":Copilot enable<cr>", opts)
-keymap("n", "<A-2>", ":Copilot disable<cr>", opts)
-keymap("n", "<A-3>", ":Copilot status<cr>", opts)
+-- keymap("n", "<A-1>", ":Copilot enable<cr>", opts)
+-- keymap("n", "<A-2>", ":Copilot disable<cr>", opts)
+-- keymap("n", "<A-3>", ":Copilot status<cr>", opts)

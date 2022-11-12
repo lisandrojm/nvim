@@ -209,9 +209,9 @@ local mappings = {
     h = { "<cmd>lua require'dap.ui.widgets'.hover()<cr>", "Hover" },
     k = { "<cmd>lua require'dap'.up()<cr>zz", "Up" },
     j = { "<cmd>lua require'dap'.down()<CR>zz]", "Down" },
--- vim.keymap.set('n', '<leader>ds', ':Telescope dap frames<CR>')
--- -- vim.keymap.set('n', '<leader>dc', ':Telescope dap commands<CR>')
--- vim.keymap.set('n', '<leader>db', ':Telescope dap list_breakpoints<CR>')
+    -- vim.keymap.set('n', '<leader>ds', ':Telescope dap frames<CR>')
+    -- -- vim.keymap.set('n', '<leader>dc', ':Telescope dap commands<CR>')
+    -- vim.keymap.set('n', '<leader>db', ':Telescope dap list_breakpoints<CR>')
   },
 
   -- nnoremap <silent> <leader>B :lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>
@@ -238,14 +238,14 @@ local mappings = {
     k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
     C = { "<cmd>Telescope commands<cr>", "Commands" },
   },
-    -- lisandrojm
+  -- lisandrojm
   g = {
     name = "Fugitive",
     a = { "<cmd>:G<cr>", "Status" },
     c = { "<cmd>:G commit<cr>", "Commit" },
     p = { "<cmd>:G push<cr>", "Push" },
   },
-    --
+  --
 
   m = {
     name = "Git",
@@ -301,7 +301,8 @@ local mappings = {
     },
     l = { "<cmd>lua vim.lsp.codelens.run()<cr>", "CodeLens Action" },
     o = { "<cmd>SymbolsOutline<cr>", "Outline" },
-    q = { "<cmd>lua vim.lsp.diagnostic.set_loclist()<cr>", "Quickfix" },
+    -- q = { "<cmd>lua vim.lsp.diagnostic.set_loclist()<cr>", "Quickfix" },
+    q = { "<cmd>lua vim.diagnostic.setloclist()<cr>", "Quickfix" },
     r = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
     R = { "<cmd>TroubleToggle lsp_references<cr>", "References" },
     s = { "<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols" },

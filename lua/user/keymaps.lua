@@ -116,12 +116,12 @@ keymap("n", "<A-l>", "$", opts)
 keymap("n", "<A-h>", "_", opts)
 
 -- save & quit
-keymap("n", "<A-w>", ":w!<cr>", opts)
-keymap("n", "<A-q>", ":q!<cr>", opts)
+-- keymap("n", "<A-w>", ":w!<cr>", opts)
+-- keymap("n", "<A-q>", ":q!<cr>", opts)
 keymap("n", "<leader>w", ":w<cr>", opts)
 keymap("n", "<leader>wq", ":wq<cr>", opts)
 keymap("n", "<leader>q", ":q<cr>", opts)
-keymap("n", "<leader>ñ", ":q!<cr>", opts)
+-- keymap("n", "<leader>ñ", ":q!<cr>", opts)
 
 -- del
 keymap("i", "<C-l>", "<Del>", opts)

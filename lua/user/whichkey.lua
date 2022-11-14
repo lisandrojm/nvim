@@ -116,8 +116,9 @@ local mappings = {
   -- ["q"] = { '<cmd>lua require("user.functions").smart_quit()<CR>', "Quit" },
   -- ["/"] = { '<cmd>lua require("Comment.api").toggle_current_linewise()<CR>', "Comment" },
   ["/"] = { '<cmd>lua require("Comment.api").toggle.linewise.current()<CR>', "Comment" },
-  -- ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
   ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
+  ["k"] = { "<cmd>bw!<CR>", "Kill Buffer" },
+  ["ñ"] = { "<cmd>q!<CR>", "Quit" },
 
   -- :lua require'lir.float'.toggle()
   -- ["f"] = {

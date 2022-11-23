@@ -1,6 +1,7 @@
 local options = {
   backup = false, -- creates a backup file
   -- clipboard = "unnamedplus",               -- allows neovim to access the system clipboard-- if active is slowwer
+  clipboard = "",               -- allows neovim to access the system clipboard-- if active is slowwer
   cmdheight = 1, -- more space in the neovim command line for displaying messages
   completeopt = { "menuone", "noselect" }, -- mostly just for cmp
   conceallevel = 0, -- so that `` is visible in markdown files
@@ -60,3 +61,6 @@ vim.filetype.add {
 
 vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#282828]])
 vim.cmd([[highlight Cursorline ctermbg=0 guibg=#262626]])
+vim.cmd([[highlight Cursorline ctermbg=0 guibg=#262626]])
+-- vim.cmd([[highlight comment ctermfg=0 guifg=#fff]])
+vim.cmd([[highlight Visual term=reverse cterm=reverse guibg=white]])

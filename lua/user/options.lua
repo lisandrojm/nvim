@@ -60,8 +60,8 @@ vim.filetype.add {
   },
 }
 
-vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#282828]])
-vim.cmd([[highlight Cursorline ctermbg=0 guibg=#262626]])
-vim.cmd([[highlight Cursorline ctermbg=0 guibg=#262626]])
+-- vim.cmd([[highlight Cursorline ctermbg=0 guibg=#262626]])
+-- vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#292e42]])
+-- vim.cmd([[highlight Cursorline ctermbg=0 guibg=#262626]])
 -- vim.cmd([[highlight comment ctermfg=0 guifg=#fff]])
-vim.cmd([[highlight Visual term=reverse cterm=reverse guibg=white]])
+-- vim.cmd([[highlight Visual term=reverse cterm=reverse guibg=white]])

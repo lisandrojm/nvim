@@ -245,6 +245,7 @@ local mappings = {
     a = { "<cmd>:G<cr>", "Status" },
     c = { "<cmd>:G commit<cr>", "Commit" },
     p = { "<cmd>:G push<cr>", "Push" },
+    u = { "<cmd>:G pull<cr>", "Pull" },
   },
   --
 

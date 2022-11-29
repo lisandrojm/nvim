@@ -136,6 +136,9 @@ keymap("v", "<leader>,", ":call nerdcommenter#Comment('x', 'toggle')<CR>", opts)
 -- neoformat
 keymap("n", "<leader>n", ":Neoformat<cr>", opts)
 
+-- whitespaces
+keymap("n", "<A-9>", ":g/^$/d<CR>", opts)
+
 -- copilot
 -- keymap("n", "<A-1>", ":Copilot enable<cr>", opts)
 -- keymap("n", "<A-2>", ":Copilot disable<cr>", opts)
